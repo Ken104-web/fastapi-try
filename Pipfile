@@ -8,6 +8,7 @@ sqlalchemy = "*"
 alembic = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
+fastapi = {extras = ["standard"], version = "*"}
 
 [dev-packages]
 
