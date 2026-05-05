@@ -1,9 +1,8 @@
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.sql.functions import random
+from sqlalchemy.orm import sessionmaker 
 from app import session
 from app.session import engine
 from app.models import User
-
+import random
 
 Session = sessionmaker(bind=engine)
 session = Session
